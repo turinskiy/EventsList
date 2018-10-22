@@ -73,6 +73,6 @@ export class CreateSessionComponent implements OnInit {
       voters: []
     };
 
-    this.saveNewSession.emit(session.toString());
+    this.saveNewSession.emit(session);
   }
 }
